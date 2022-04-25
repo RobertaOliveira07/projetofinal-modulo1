@@ -1,11 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300&family=Press+Start+2P&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     width: auto;
     height: auto;
     box-sizing: border-box;
-    font-family: 'Inconsolata', sans-serif;
-    color: black;
+    
 }
 
 body {
@@ -13,7 +14,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: black;
+    background-color: #941B0C;
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -35,7 +36,6 @@ body {
     margin: 0px 10px 10px 10px;
     box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
     border-radius: 20px;
-    background: rgba(255, 255, 255, 0.1);
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -59,9 +59,9 @@ body {
 }
 
 .container .card .content .coluna1 h1 {
-    font-family: 'Terror'; 
+    font-family: 'Press Start 2P'; 
     font-size: 40px;
-    color: white;
+    color: #F6AA1C;
     text-align: center;
     margin-bottom: 5px;
     margin-top: 5px;
@@ -70,7 +70,7 @@ body {
 .container .card .content .coluna1 h2 {
     font-family: 'Inconsolata', sans-serif; 
     font-size: 25px;
-    color: white;
+    color: #F6AA1C;
     text-align: left;
     margin-bottom: 5px;
     margin-top: 5px;
@@ -81,7 +81,7 @@ body {
     display: inline-block;
     padding: 8px 20px;
     margin-top: 15px;
-    background: rgb(147, 19, 20);
+    background: #F6AA1C;
     color: white;
     text-decoration: none;
     border-radius: 20px;
@@ -99,4 +99,10 @@ body {
     color: #fff;
     line-height: 1.5;
     text-align: justify;
+}
+
+.container .card .content .coluna2 .bg {
+    width: 80%;
+    align-self: center;
+    margin-top: 150px;
 }

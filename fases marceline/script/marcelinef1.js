@@ -1,7 +1,7 @@
 function primeiraFaseMarceline () {
     while (opcao != 1 || opcao != 2) {
         var opcao = prompt (
-            `Escolha uma das opções:\n1. Vira boia e vai embora sozinho.\n2. Decide ajudar todos.`);
+            `Escolha uma das opções:\n1. Decide salvar apenas quem ela ama.\n2. Ajuda a combater o incêndio.`);
 
 
         if (opcao == 1) {
