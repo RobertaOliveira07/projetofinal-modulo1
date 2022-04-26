@@ -1,7 +1,7 @@
 function terceiraFaseMarceline () {
     while (opcao != 1 || opcao != 2) {
         var opcao = prompt (
-            `Escolha uma das opções:\n1. Ana entende a situação, compra o tabaco e entrega a Matinta.\n2. Ana não acredita na história e segue despreocupada por que só tem mais 1 dia de hospedagem no local.`);
+            `Escolha uma das opções:\n1. Vai atrás do Rei Gelado, para tentar convencer ele a apagar o fogo.\n2. Desiste, desce e vai embora coma  princesa Juuba.`);
 
 
         if (opcao == 1) {
