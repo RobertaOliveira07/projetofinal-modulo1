@@ -14,11 +14,12 @@ body{
     overflow: hidden;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
     align-items: center;
 }
 
 .banner video {
-    position: fixed;
     top: 0;
     left: 0;
     object-fit: cover;
@@ -27,9 +28,12 @@ body{
 }
 
 .box{
+    position: fixed;
     padding: 0 100px;
-   
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
    
 
 }
@@ -47,11 +51,11 @@ body{
 }
 
 .inner_box h1{
-   margin: 0 0 20px;
-   padding: 0;
-   font-size: 48px;
-   text-transform: uppercase;
-    color: #FFBC42;
+    margin: 0 0 20px;
+    padding: 0;
+    font-size: 48px;
+    text-transform: uppercase;
+     color: #FFBC42;
 
 }
 
@@ -70,7 +74,96 @@ body{
 }
 
 .inner_box a:hover{
-    background: white;
-    color: black;
+        background: white;
+        color: black;
+    }
+
+@media (max-width: 450px){
+
+    body{
+        height: 100vh;
+        width: 100%;
+        background-repeat: no-repeat;
+        
 }
+    .banner {
+        margin-top: 10%;
+        width: 90%;
+        height: 90vh;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        }
+
+      .banner video {
+        position: relative;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+        width: 250%;
+        height: 220vh;
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+       .box{
+        padding: 0 90%;
+        font-size: 10px;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+       
+    
+    }
+    
+    .inner_box{
+        max-width: 90%;
+        position: relative;
+        text-align: center;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    
+    }
+    
+    .inner_box h1{
+        margin: 0 0 20%;
+        padding: 0;
+        font-size: 2em;
+        text-transform: uppercase;
+        color: #FFBC42;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    
+    }
+    
+    .inner_box a{
+        position: relative;
+        display: inline-block;
+        padding: 8% 20%;
+        margin-top: 15%;
+        background: #F8333C;
+        font-size: 15px;
+        color: white;
+        text-decoration: none;
+        border-radius: 20%;
+        font-weight: 500%;
+        box-shadow: 0 5% 15% rgba(0, 0, 0, 0.2);
+    }
+    
+    .inner_box a:hover{
+        background: white;
+        color: black;
+        }
 
