@@ -151,7 +151,7 @@ h2 {
 @media (max-width: 450px){
 
     body{
-    display: flex: ;
+    display: flex ;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -192,4 +192,3 @@ h2 {
         flex-direction: column;
         position: absolute;
     }
-
